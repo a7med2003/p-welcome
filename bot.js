@@ -21,7 +21,7 @@ client.on('guildMemberAdd', member => {///كود الترحيب في السير�
  
   if (!channel) return;
 
-  channel.send(`**welcome:heart:️**, ${member}`);
+  channel.send(`**welcome:heart:️**${member}`);
 })
 
 // THIS  MUST  BE  THIS  WAY
